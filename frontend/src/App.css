@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.admin-dashboard.expanded {
+    width: 270px;
+    
+  }
+  .admin-dashboard.collapsed{
+    width: 60px;
+  }
+  
+  .admin-dashboard {
+    transition: width 1.8s;
+  }
+
+  
+  .admin-dashboard .ant-menu-item-selected {
+    background-color: transparent !important; /* Set the selected item background color */
+color: white !important;  
+} 
+
+.admin-dashboard ul li{
+    color: white !important;
+}
+  
+  .admin-dashboard .ant-menu-submenu-title {
+    color: white !important; /* Set the submenu title background color */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .admin-dashboard ul li ul{
+    background-color: rgb(53, 31, 97) !important;
+  }
+ 
+  
